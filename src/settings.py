@@ -80,7 +80,7 @@ AUTHORS: Optional[List[str]] = [
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "The University of Tokyo",
     "Data61-CSIRO",
-    "Kamiens Technology Inc.",
+    "Kamiens Technology Inc",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://www.u-tokyo.ac.jp/en/",
@@ -90,7 +90,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__PRETEXT__": "Additionally, every object contains information about ***cattle id***, ***quality label*** (Normal, Truncated, Blurred, or Occluded), ***id conf*** (lack of confidence or high confidence)"
+    "__PRETEXT__": "Additionally, every object contains information about ***cattle id***, ***quality label*** (Normal, Truncated, Blurred, or Occluded), ***id conf*** (lack of confidence or high confidence). Explore them in supervisely"
 }
 TAGS: Optional[List[str]] = None
 
