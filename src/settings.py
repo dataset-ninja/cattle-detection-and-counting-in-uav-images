@@ -17,7 +17,7 @@ PROJECT_NAME: str = "Cattle Detection and Counting in UAV Images"
 PROJECT_NAME_FULL: str = (
     "Cattle Detection and Counting in UAV Images Based on Convolutional Neural Networks"
 )
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
