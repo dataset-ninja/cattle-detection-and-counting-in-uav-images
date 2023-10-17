@@ -1,6 +1,6 @@
 Dataset **Cattle Detection and Counting in UAV Images** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/n/s/ez/Mg62vevK4XIyx9wMKqqwdxpLmK8LaSFP7cUbAeIuAW762KHqIR7EDQCNd7oXGDiIyvbq7Gon4m6zmT3pnH4lh1yeUpfXrcRA2tIrLY9V9trfelCBuFkDS8V8sXhi.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
