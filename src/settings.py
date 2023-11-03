@@ -76,6 +76,7 @@ AUTHORS: Optional[List[str]] = [
     "Hidemichi Kawase",
     "Takeshi Naemura",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["shao@hc.ic.i.u-tokyo.ac.jp"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "The University of Tokyo",
@@ -90,7 +91,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__PRETEXT__": "Additionally, every object contains information about ***cattle id***, ***quality label*** (Normal, Truncated, Blurred, or Occluded), ***id conf*** (lack of confidence or high confidence). Explore them in supervisely"
+    "__PRETEXT__": "Additionally, every object contains information about ***cattle id***, ***quality label*** (Normal, Truncated, Blurred, or Occluded), ***id conf*** (lack of confidence or high confidence). Explore them in supervisely labeling tool"
 }
 TAGS: Optional[List[str]] = None
 
@@ -139,6 +140,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
