@@ -10,9 +10,11 @@ The dataset used in their research comprises two sets of pasture aerial images. 
 
 *Dataset2* includes 14 images taken on 24 August 2016 during a single flight, also in sunny and clear conditions. This dataset covers a different area within the same pasture in Kumamoto, Japan. Images were captured every 6 seconds. The purpose of this dataset is to evaluate the robustness of the authors' cattle detection and counting system.
 
-<img src="https://github.com/dataset-ninja/cattle-detection-and-counting-in-uav-images/assets/78355358/ee0a7db0-1f92-4d8a-8fb3-eb780ba9672a" alt="image" width="800">
+<img src="https://github.com/supervisely/supervisely/assets/78355358/fd8c16e8-1478-40f6-ba1c-f57ce12db0d6" alt="image" width="800">
 
-For annotation purposes, the authors manually labeled all cattle in the images, providing details such as the top-left position, width, and height of the bounding boxes, data quality labels, and cattle IDs. The data ***quality label***  include Normal, Truncated, Blurred, and Occluded categories, and examples of each label are provided. Multiple images of the same target were labeled with the same ID, allowing for individual cattle counting in each flight area. Flights F and G in Dataset1, containing more images, were divided into flight sections in the experiment. The areas covered by each flight section range from 1.5 to 5 hectares.
+<span style="font-size: smaller; font-style: italic;">Figure 1. Examples of flight route and images in our two datasets. (a) shows one example of flight route. (b) shows examples of dataset 1. (c) shows examples of dataset 2.</span>
+
+For annotation purposes, the authors manually labeled all cattle in the images, providing details such as the top-left position, width, and height of the bounding boxes, data quality labels, and cattle IDs. The data ***quality label***  include Normal, Truncated, Blurred, and Occluded categories and examples of each label are provided. Multiple images of the same target were labeled with the same ID, allowing for individual cattle counting in each flight area. Flights F and G in Dataset1, containing more images, were divided into flight sections in the experiment. The areas covered by each flight section range from 1.5 to 5 hectares.
 
 <img src="https://github.com/dataset-ninja/cattle-detection-and-counting-in-uav-images/assets/78355358/8e04099d-b1f2-4653-8c78-d3035ab4d97e" alt="image" width="800">
 
